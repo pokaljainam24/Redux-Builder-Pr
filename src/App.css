@@ -1,0 +1,52 @@
+.dark-theme {
+  background-color: #121212 !important;
+  color: #f1f1f1 !important;
+}
+
+.dark-theme .card {
+  background-color: #1e1e1e !important;
+  color: #ffffff;
+  border-color: #333 !important;
+}
+
+.dark-theme .form-control,
+.dark-theme .form-select {
+  background-color: #2a2a2a !important;
+  color: #f1f1f1 !important;
+  border: 1px solid #444;
+}
+
+.dark-theme .form-control::placeholder {
+  color: #888 !important;
+}
+
+.dark-theme .text-muted {
+  color: #bbb !important;
+}
+
+.card {
+  border-radius: 0.75rem;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.btn-outline-success:hover,
+.btn-outline-primary:hover {
+  transform: scale(1.05);
+}
+
+.bg-gradient {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+}
+
+.rounded-4 {
+  border-radius: 1rem;
+}
+
+.shadow-lg {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
